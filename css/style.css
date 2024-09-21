@@ -20,7 +20,12 @@
 .color-black{
     color: #2B2D42;
 }
-
+.color-cherry{
+    color: #E63946;
+}
+ h1{
+    font-size: 60px;
+ }
 
 .text-bangers{
     font-family: "Bangers", system-ui;
@@ -42,8 +47,8 @@
     background-color: #2B2D42;
     color: #E63946;
     border-radius: 14px;
-    font-size: 25px;
-    padding: 8px 18px;
+    font-size: 35px;
+    padding: 8px 30px;
 }
 
 .btn-roll:hover{
@@ -58,12 +63,13 @@
 }
 
 .dice {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-image: url('../img/1.png'); 
+    background-color: #E63946;
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 26px;
     animation: none;
     margin: auto;
     transform-style: preserve-3d; 
