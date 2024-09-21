@@ -52,5 +52,25 @@
 }
 
 
+@keyframes rollDice {
+    from { transform: rotateX(0deg) rotateY(0deg); }
+    to { transform: rotateX(720deg) rotateY(720deg); }
+}
 
+.dice {
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/1.png'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    animation: none;
+    margin: auto;
+    transform-style: preserve-3d; 
+    transition: background-image 0.3s ease; 
+}
+
+.roll {
+    animation: rollDice 3s ease-out;
+}
 
