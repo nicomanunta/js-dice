@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-cherry{
+    background-color: #E63946;
+}
+.bg-grey{
+    background-color: #F1FAEE;
+}
+.bg-black{
+    background-color: #2B2D42;
+}
+.color-black{
+    color: #2B2D42;
+}
+
+
+.text-bangers{
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-lato{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.text-mono{
+    font-family: "PT Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn-roll{
+    background-color: #2B2D42;
+    color: #E63946;
+    border-radius: 14px;
+    font-size: 25px;
+    padding: 8px 18px;
+}
+
+.btn-roll:hover{
+    background-color: #E63946;
+    color: #2B2D42;
+}
+
+
+
+
