@@ -25,6 +25,7 @@
 }
  h1{
     font-size: 60px;
+    text-shadow: 2px 2px #2B2D42;
  }
 
 .text-bangers{
@@ -49,11 +50,18 @@
     border-radius: 14px;
     font-size: 35px;
     padding: 8px 30px;
+    border: 0;
+    
 }
 
 .btn-roll:hover{
     background-color: #E63946;
     color: #2B2D42;
+}
+.btn-roll:active{
+    background-color:  #cc313e;
+    color: #171824;
+    
 }
 
 
