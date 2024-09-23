@@ -24,4 +24,4 @@ rollButton.addEventListener('click', () => {
 
         dice.classList.remove('roll');
     }, 3050);
-})
+}) 
